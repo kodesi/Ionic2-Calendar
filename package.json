@@ -1,0 +1,39 @@
+{
+  "name": "ionic2-calendar",
+  "version": "2.8.0",
+  "description": "Ionic calendar component",
+  "keywords": [
+    "Ionic",
+    "calendar"
+  ],
+  "author": {
+    "name": "twinssbc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twinssbc/Ionic2-Calendar.git"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=20.0.0",
+    "@angular/forms": ">=20.0.0",
+    "@angular/core": ">=20.0.0",
+    "@ionic/angular": "^9.0.0",
+    "swiper": "^12.0.0"
+  },
+  "module": "fesm2022/ionic2-calendar.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/ionic2-calendar.mjs"
+    }
+  },
+  "sideEffects": false
+}
