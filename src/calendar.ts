@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, OnInit, Output, TemplateRef, Inject, LO
 import { Subscription } from 'rxjs';
 import { CalendarService } from './calendar.service';
 import SwiperCore from 'swiper';
-import { IonicSlides } from '@ionic/angular';
+import { IonicSlides } from '@ionic/angular/lazy';
 import { IEvent, CalendarMode, QueryMode, Step, IMonthViewDisplayEventTemplateContext, IMonthViewEventDetailTemplateContext, IDisplayWeekViewHeader, IDisplayAllDayEvent, IDisplayEvent, IWeekViewAllDayEventSectionTemplateContext, IDayViewAllDayEventSectionTemplateContext, IWeekViewNormalEventSectionTemplateContext, IDayViewNormalEventSectionTemplateContext, IDateFormatter, IRange, ITimeSelected } from './calendar.interface';
 
 SwiperCore.use([IonicSlides]);
